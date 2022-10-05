@@ -8,6 +8,30 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 
+/dist
+/tmp
+/out-tsc
+
+# Node
+/node
+/node_modules
+npm-debug.log
+yarn-error.log
+
+# Miscellaneous
+/.angular/cache
+.sass-cache/
+/connect.lock
+/coverage
+/libpeerconnection.log
+testem.log
+/typings
+
+# System files
+.DS_Store
+Thumbs.db
+
+
 # JetBrains tools
 # https://intellij-support.jetbrains.com/hc/en-us/articles/206544839-How-to-manage-projects-under-Version-Control-Systems
 # See also .idea/.gitignore
